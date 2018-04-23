@@ -15,6 +15,7 @@
 		A4772C06208D701600FCBEB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4772C05208D701600FCBEB9 /* main.m */; };
 		A4772C10208D701600FCBEB9 /* TheCountDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4772C0F208D701600FCBEB9 /* TheCountDownTests.m */; };
 		A4772C1B208D701600FCBEB9 /* TheCountDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4772C1A208D701600FCBEB9 /* TheCountDownUITests.m */; };
+		A4772C2A208D703300FCBEB9 /* WB_Stopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4772C28208D703300FCBEB9 /* WB_Stopwatch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A4772C16208D701600FCBEB9 /* TheCountDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCountDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4772C1A208D701600FCBEB9 /* TheCountDownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheCountDownUITests.m; sourceTree = "<group>"; };
 		A4772C1C208D701600FCBEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4772C28208D703300FCBEB9 /* WB_Stopwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WB_Stopwatch.m; sourceTree = "<group>"; };
+		A4772C29208D703300FCBEB9 /* WB_Stopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WB_Stopwatch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		A4772BF5208D701600FCBEB9 /* TheCountDown */ = {
 			isa = PBXGroup;
 			children = (
+				A4772C29208D703300FCBEB9 /* WB_Stopwatch.h */,
+				A4772C28208D703300FCBEB9 /* WB_Stopwatch.m */,
 				A4772BF6208D701600FCBEB9 /* AppDelegate.h */,
 				A4772BF7208D701600FCBEB9 /* AppDelegate.m */,
 				A4772BF9208D701600FCBEB9 /* ViewController.h */,
@@ -267,6 +272,7 @@
 			files = (
 				A4772BFB208D701600FCBEB9 /* ViewController.m in Sources */,
 				A4772C06208D701600FCBEB9 /* main.m in Sources */,
+				A4772C2A208D703300FCBEB9 /* WB_Stopwatch.m in Sources */,
 				A4772BF8208D701600FCBEB9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32MQWCT2QN;
 				INFOPLIST_FILE = TheCountDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caoji.TheCountDown;
@@ -444,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32MQWCT2QN;
 				INFOPLIST_FILE = TheCountDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caoji.TheCountDown;
